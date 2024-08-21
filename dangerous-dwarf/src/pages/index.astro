@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro"
+const title = "Home"
+---
+
+<BaseLayout pageTitle={title}>
+	<Header/>
+	<main>
+        <h1>Welcome to the Home Page</h1>
+        <p>This is the main content of the homepage.</p>
+    </main>
+</BaseLayout>
